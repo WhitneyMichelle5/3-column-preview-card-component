@@ -3,9 +3,43 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    width: 375px;
+}
 .attribution { 
     font-size: 11px; text-align: center; 
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+.sedans-card{
+    background-color: hsl(31, 77%, 52%);
+    
+    
+}
+.suvs-card{
+    background-color:hsl(184, 100%, 22%);
+}
+.luxury-card{
+    background-color:hsl(179, 100%, 13%);
+}
+h2{
+    font-family:'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    margin: 15px;
+}
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-bottom: 15px;
+    font-size: 15px;
+    margin: 15px;
+    
+}
+
+section div{
+    width: 200px;
 }
