@@ -22,7 +22,7 @@
     background-color:hsl(179, 100%, 13%);
 }
 main{
-    width: 375px;
+    width: 700px;
     margin-left:5rem;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -33,6 +33,7 @@ section.card{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 380px;
 }
 
 h2{
@@ -86,3 +87,20 @@ section div{
     font-size: 20px;
     
 }
+@media only screen and (min-width: 600px) {
+    body{
+        width: 1440px;
+    }
+    main {
+      display: flex;
+    
+    
+    }
+    .luxury-card, .sedans-card, .suvs-card{
+        width: 250px;
+        height: 400px;
+        padding: 50px;
+    }
+    
+    
+  }
