@@ -13,6 +13,7 @@
 }
 .sedans-card{
     background-color: hsl(31, 77%, 52%);
+    margin-top: 15px;
 }
 .suvs-card{
     background-color:hsl(184, 100%, 22%);
@@ -20,6 +21,11 @@
 .luxury-card{
     background-color:hsl(179, 100%, 13%);
 }
+.card{
+    margin-left: 25rem;
+
+}
+
 h2{
     font-family:'Big Shoulders Display', cursive;
     color: hsl(0, 0%, 95%);
@@ -39,7 +45,6 @@ p{
 
 section div{
     width: 200px;
-    height: 400px;
     padding: 30px;
     
     
